@@ -1,0 +1,324 @@
+
+
+
+/* setting everything to 0*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+
+
+
+/* setting properties to the logo and brand name*/
+.menu {
+    padding: 10px;
+    display: flex;
+    background-color: #f7f7f7;
+}
+
+#logo {
+    width: 3.5em;
+    height: 3.5em;
+    align-content: center;
+    padding-left: 25px;
+    padding-top: 2px;
+}
+
+#brand {
+    text-decoration: none;
+    color: #00bf55;
+    font-size: 2.5em;
+    align-content: center;
+    cursor: pointer;
+    padding-right: 70%;
+    padding-left: 15px;
+    
+}
+
+.menu a:hover {
+    background-color: #b7b7b7;
+}
+
+
+
+
+
+
+
+
+
+/*setting the sidebar for the html*/
+.sidebar {
+    display: flex;
+    height: inherit;
+    width: 70px;
+    top: 0;
+    background-color: #008f92;
+    transition: 0.6s;
+    margin-left: 140px;
+}
+
+
+.sidebar a {
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+    display: none;
+}
+
+.sidebar a:hover {
+    background-color: #008fb9;
+}
+
+/*setting the propeties of the sidebar using javascript*/
+.closebtn {
+    font-size: 35px;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.sidebar.collapsed {
+    width: 300px;
+}
+
+.body.collapsed {
+    width: 70px;
+}
+
+
+
+
+
+
+
+
+/*giving a background to the header*/
+header, .header {
+    padding: 85px 251px;
+    text-align-last: left;
+    color: whitesmoke;
+    display: block;
+}
+
+header {
+    background: linear-gradient(to bottom, #00bf55, #419868);
+}
+
+.header {
+    padding: 1px;
+}
+
+.header > h1 {
+    margin-bottom: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+/*giving properties to all sections*/
+section {
+    display: flex;
+    padding: 70px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+section > * {
+    flex: .5;
+    align-content: space-around;
+    width: 100%;
+}
+
+
+
+
+
+
+
+/*this are for image and text sections*/
+.text {
+   font-size: 25px; 
+}
+
+.img {
+    height: 100%;
+    width: 100%;
+    border: solid aqua;
+    box-shadow: 4px 4px 5px;
+}
+
+.edit {
+    padding: 50px;
+    flex: 0.5;
+}
+
+
+
+
+
+.img2 {
+    height: 100%;
+    width: 100%;
+    border: solid aqua;
+    box-shadow: 4px 4px 5px;
+}
+
+.edit2 {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+div:has( > .img2) {
+    display: flex;
+    padding: 30px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+
+
+
+
+h1 {
+    margin-bottom: 40px;
+    font-size: 35px;
+}
+
+.img3 {
+    height: 80%;
+    width: 80%;
+    align-content: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.edit3 {
+    background-color: aliceblue;
+    padding: 20px;
+    box-shadow: 3px 3px 5px;
+}
+
+
+
+
+/*these are for the three points with heading section*/
+.points {
+    font-size: 25px;
+    padding: 13px;
+    flex: .3;
+}
+
+.ph1 {
+    flex: 0 0;
+    width: 100%;
+    align-content: center;
+    display: flex;
+    padding-left: 33%;
+}
+
+.ph2 {
+    flex: 0 0;
+    width: 100%;
+    align-content: center;
+    padding-left: 20%;
+    font-style: oblique;
+    font-size: 2.7em;
+}
+
+
+
+/*settings for the duoble para section*/
+.tepo {
+    font-size: 25px;
+    padding: 20px;
+    flex: .5;
+}
+
+
+
+
+
+
+
+
+
+
+/*backgrounds for each section*/
+
+.a {
+    background:linear-gradient(to right, #e0ffff, #77aaaa);
+}
+
+.b {
+    background:linear-gradient(to left, #98fb98, #63b763);
+}
+
+.c {
+    background:linear-gradient(to bottom, #fffafa, #d19595);
+    display: block;
+    padding-left: 70px;
+}
+
+.d {
+    background:linear-gradient(to top, #f0f8ff, #82b5e2);
+    display: block;
+    padding-left: 70px;
+}
+
+.e {
+    background-image: url('newsletter.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: block;
+    color: #73a5d1;
+    text-shadow: -1px -1px 0 black, 1px 1px 0 black, -1px 1px 0 black, -1px 1px 0 black;
+}
+
+
+
+
+/*join button*/
+.button {
+    font-size: 35px;
+    width: fit-content;
+    color: white;
+    background:linear-gradient(to bottom, #71bdff, #73a5d1);
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 50px 500px 30px ;
+}
+
+
+
+
+
+
+/*footer*/
+footer, .footer {
+    background:linear-gradient(to top, #c2dda2, #c4ff7f);
+    display: block;
+    padding-left: 70px;
+}
+
+
+
