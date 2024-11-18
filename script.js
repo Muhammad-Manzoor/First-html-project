@@ -19,7 +19,7 @@ function toggleMenu() {
             element.parentElement.style.marginLeft = '-270px';
             setTimeout(() => {
                 element.style.display = 'block';
-            }, 0600);
+            }, 600);
         }
     });
 }
