@@ -98,6 +98,39 @@ body {
 
 
 
+/* testing code snippets */
+.code-h1 {
+    color: #edd8d8;
+}
+
+.code-box {
+    border: 2px solid #344734;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    background-color: #2d2d2d;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.code-header {
+    background-color: #344734;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.codePre {
+    margin: 0;
+    padding: 10px;
+    overflow-x: auto;
+}
+
+code {
+    font-family: Consolas, "Courier New", monospace;
+    font-size: 1em;
+}
 
 
 
@@ -307,7 +340,9 @@ h1 {
     padding: 10px 20px;
     margin: 50px 500px 30px ;
 }
-
+.button:hover {
+    background:linear-gradient(to bottom, #6da3d2, #7896af);
+}
 
 
 
