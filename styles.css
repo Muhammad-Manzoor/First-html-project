@@ -343,7 +343,9 @@ h1 {
 .button:hover {
     background:linear-gradient(to bottom, #6da3d2, #7896af);
 }
-
+a {
+    text-decoration: none;
+}
 
 
 
